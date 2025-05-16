@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+}
+
+main {
+  width: 80%;
+  height: 50vh;
+  margin: 0 auto;
+}
+
+form {
+  background-color: rgb(121, 213, 218);
+  width: 75%;
+  height: 50vh;
+  margin: 15% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border: 5px double;
+  border-radius: 20px;
+}
+
+.input,
+.btn {
+  border: 0;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 1rem;
+  box-shadow: -7.5px 7.5px 5px;
+}
+
+form .input {
+  width: 400px;
+  height: 40px;
+}
+
+.btn {
+  background-color: rgb(107, 223, 134);
+  width: 350px;
+  height: 40px;
+}
+
+.container {
+  width: 350px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+.inputcontainer * {
+  margin-top: 15px;
+}
+
+.inputcontainer div * {
+  margin-right: 10px;
+}
+
+.buttoncontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10px;
+}

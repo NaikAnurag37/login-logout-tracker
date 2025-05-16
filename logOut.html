@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <form method="dialog" class="logoutform">
+        <div class="container">
+          <div class="text"></div>
+          <div class="inputcontainer">
+            <div class="teabreak">
+              <input
+                class="reason"
+                type="radio"
+                name="all"
+                id="tea"
+                value="Tea Break"
+              /><label class="rad" for="tea">Tea Break</label>
+            </div>
+            <div class="lunchbreak">
+              <input
+                class="reason"
+                type="radio"
+                name="all"
+                id="lunch"
+                value="Lunch Break"
+              /><label class="rad" for="lunch">Lunch Break</label>
+            </div>
+            <div class="biobreak">
+              <input
+                class="reason"
+                type="radio"
+                name="all"
+                id="bio"
+                value="Bio Break"
+              /><label class="rad" for="bio">Bio Break</label>
+            </div>
+            <div class="meeting">
+              <input
+                class="reason"
+                type="radio"
+                name="all"
+                id="meet"
+                value="Meeting"
+              /><label class="rad" for="meet">Meeting</label>
+            </div>
+            <div class="dayend">
+              <input
+                class="reason"
+                type="radio"
+                name="all"
+                id="finish"
+                value="Day End / Log out"
+              /><label class="rad" for="finish">Day End / Log out</label>
+            </div>
+          </div>
+          <div class="buttoncontainer">
+            <button class="btn logOut">Log out</button>
+          </div>
+        </div>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

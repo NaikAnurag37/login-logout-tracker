@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <form method="dialog">
+        <input
+          class="input singName"
+          type="text"
+          placeholder="User Name"
+          required
+        />
+        <input
+          class="input signMail"
+          type="email"
+          placeholder="Email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
+          required
+        />
+        <input
+          class="input signPass"
+          type="password"
+          placeholder="Password"
+          minlength="8"
+          maxlength="16"
+          required
+        />
+        <input
+          class="input signPassTow"
+          type="password"
+          placeholder="Conferme Password"
+          required
+        />
+        <button class="btn signIn">Sign In</button>
+        <h5>Already have account? <a href="logIn.html">LogIn</a></h5>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
